@@ -1,0 +1,40 @@
+.root-container{
+    height: 100%;
+
+}
+.signup-container{
+    background-color: #ffffff;
+    background-size: cover;
+    border: 5px solid #755f5f;
+    border-radius: 10px;
+    box-shadow: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+
+}
+.signup-image{
+    height: 350px;
+    width: 350px;
+}
+
+input{
+    height: 30px;
+    width: 320px;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color: #ffffff;
+}
+.no-outline:focus{
+    outline: none;
+}
